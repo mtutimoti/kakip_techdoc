@@ -1,24 +1,30 @@
 baseURL = "https://example.com"
 
+# languageCode = "en-us"
+# DefaultContentLanguage = "en"
+# title = "Hugo Techdoc Theme"
 languageCode = "jp"
 DefaultContentLanguage = "jp"
 title = "Kakip Techdoc"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
+# metaDataFormat = "yaml"
 metaDataFormat = "yml"
 publishDir = "docs"
 
+# defaultContentLanguage = "en"
 defaultContentLanguage = "jp"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
 [params]
 
-    favicon = "/images/favicon.ico"
-    logo = "/images/favicon-16x16.png"
+    # favicon = "/images/favicon.ico"
+    # logo = "/images/favicon-16x16.png"
 
     # Source Code repository section
+    # description = "put your description"
     description = "Welcome Kakip World!"
     # github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
     github_repository = "https://www.kakip.ai/"
@@ -83,10 +89,16 @@ enableMissingTranslationPlaceholders = false
       weight = 1
       identifier = 'home'
       pre = "<i class='fa fa-heart'></i>&nbsp;"
+
   [[menu.main]]
+      # name = "Twitter"
+      # url = "https://twitter.com/thingsym"
       name = ""
       url = "https://x.com/kakip_yds"
       weight = 2
+      identifier = 'twitter'
+      # pre = "<b>pre!</b> "
+      # post = " <b>post!</b>"
       pre = "<b>X</b>"
       post = " @kakip_yds"
       [menu.main.params]
