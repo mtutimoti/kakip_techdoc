@@ -20,7 +20,8 @@ enableMissingTranslationPlaceholders = false
 
     # Source Code repository section
     description = "Welcome Kakip World!"
-    github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    # github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    github_repository = "https://www.kakip.ai/"
     version = "0.0.1"
 
     # Documentation repository section
@@ -39,7 +40,8 @@ enableMissingTranslationPlaceholders = false
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
     title = "Hugo Techdoc Theme"
-    images = ["images/favison.ico"] # Open graph images are placed in `static/images`
+    images = ["images/og-image.png"] # Open graph images are placed in `static/images`
+    # images = ["images/favison.ico"] # Open graph images are placed in `static/images`
 
     # Theme settings section
     # Theme color
@@ -79,10 +81,14 @@ enableMissingTranslationPlaceholders = false
       name = "Home"
       url = "/"
       weight = 1
+      identifier = 'home'
+      pre = "<i class='fa fa-heart'></i>&nbsp;"
   [[menu.main]]
       name = "X"
       url = "https://x.com/kakip_yds"
       weight = 2
+      pre = "<b>pre!</b> "
+      post = " <b>post!</b>"
       [menu.main.params]
         class = 'twitter-menu-item'
 
