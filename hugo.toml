@@ -40,7 +40,7 @@ enableMissingTranslationPlaceholders = false
     # See https://gohugo.io/templates/internal/#open-graph
     # See https://gohugo.io/templates/internal/#twitter-cards
     title = "Hugo Techdoc Theme"
-    images = ["images/og-image.png"] # Open graph images are placed in `static/images`
+    # images = ["images/og-image.png"] # Open graph images are placed in `static/images`
     # images = ["images/favison.ico"] # Open graph images are placed in `static/images`
 
     # Theme settings section
@@ -84,11 +84,11 @@ enableMissingTranslationPlaceholders = false
       identifier = 'home'
       pre = "<i class='fa fa-heart'></i>&nbsp;"
   [[menu.main]]
-      name = "X"
+      name = ""
       url = "https://x.com/kakip_yds"
       weight = 2
-      pre = "<b>pre!</b> "
-      post = " <b>post!</b>"
+      pre = "<b>X</b>"
+      post = " @kakip_yds"
       [menu.main.params]
         class = 'twitter-menu-item'
 
