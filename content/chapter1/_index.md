@@ -7,4 +7,4 @@ weight: 20
 
 Kakip is a single board computer designed for edge AI applications.
 
-![](images/image240730_091513.png)
+![SBC](images/image240730_091513.png)
