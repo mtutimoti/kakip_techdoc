@@ -3,9 +3,9 @@ baseURL = "https://example.com"
 # languageCode = "en-us"
 # DefaultContentLanguage = "en"
 # title = "Hugo Techdoc Theme"
-languageCode = "jp"
-DefaultContentLanguage = "jp"
-title = "Kakip Techdoc"
+# languageCode = "jp"
+# DefaultContentLanguage = "jp"
+# title = "Kakip Techdoc"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
@@ -14,9 +14,34 @@ metaDataFormat = "yml"
 publishDir = "docs"
 
 # defaultContentLanguage = "en"
-defaultContentLanguage = "jp"
-defaultContentLanguageInSubdir= false
-enableMissingTranslationPlaceholders = false
+# defaultContentLanguageInSubdir= false
+# enableMissingTranslationPlaceholders = false
+
+defaultContentLanguage = 'jp'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.jp]
+    baseURL = 'https://example.jp/'
+    # contentDir = 'content/jp'
+    disabled = false
+    languageCode = 'jp-JP'
+    languageDirection = 'ltr'
+    languageName = 'Japanese'
+    title = 'Kakip 技術ドキュメント'
+    weight = 1
+    [languages.jp.params]
+      subtitle = 'リファレンス、チュートリアルと説明'
+  [languages.en]
+    baseURL = 'https://example.com/'
+    # contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Kakip Techdoc'
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
 
 [params]
 
