@@ -15,6 +15,7 @@ enableMissingTranslationPlaceholders = false
 
 [params]
 
+    favicon = "images/favicon.ico"
     # Source Code repository section
     description = "Welcome Kakip World!"
     # github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
