@@ -26,8 +26,10 @@
     <meta property="article:section" content="chapter3">
     <meta property="article:published_time" content="2024-07-17T00:00:00+00:00">
     <meta property="article:modified_time" content="2024-07-17T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/images/og-image.png">
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/og-image.png">
   <meta name="twitter:title" content="3.5.2 プロトコル">
   <meta name="twitter:description" content="CANバスは、ネットワークが必要に応じてデータとコマンドをアドレス指定できる標準化されたプロトコルに従います。 送信と送信の間、バスはリセッシ">
 
@@ -35,7 +37,8 @@
   <meta itemprop="description" content="CANバスは、ネットワークが必要に応じてデータとコマンドをアドレス指定できる標準化されたプロトコルに従います。 送信と送信の間、バスはリセッシ">
   <meta itemprop="datePublished" content="2024-07-17T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-07-17T00:00:00+00:00">
-  <meta itemprop="wordCount" content="789"></head>
+  <meta itemprop="wordCount" content="789">
+  <meta itemprop="image" content="http://localhost:1313/images/og-image.png"></head>
 <body>
 
 <div class="container"><header>
@@ -54,9 +57,11 @@
 
 <div class="content-container">
 <main><h1>3.5.2 プロトコル</h1>
-<p>CANバスは、ネットワークが必要に応じてデータとコマンドをアドレス指定できる標準化されたプロトコルに従います。</p>
-<p><img alt="CAN protocol" src="images/image240730_170456.png"></p>
-<p>送信と送信の間、バスはリセッシブ電圧レベルでアイドル状態になります。
+<p>CANバスは、ネットワークが必要に応じてデータとコマンドをアドレス指定できる標準化されたプロトコルに従います。
+<figure class="center"><img src="/images/image240730_170456.png" width="100%">
+</figure>
+
+送信と送信の間、バスはリセッシブ電圧レベルでアイドル状態になります。
 送信フレームの開始(SOF)は、ドミナント ビットの送信によってマークされます。
 次のフィールドのメッセージ識別子の後には、フレームにデータが含まれているか、またはデータを要求しているかを示すリモート送信要求(RTR)が続きます。
 これら2つのフィールドは、メッセージの優先順位を確立し、バスへのアクセスを調停するために使用されます。
