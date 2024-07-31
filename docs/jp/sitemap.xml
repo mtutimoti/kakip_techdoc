@@ -2,276 +2,241 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/jp/chapter1/1/</loc>
+    <loc>http://localhost:1313/jp/1/1-1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter1/1/"
+                href="http://localhost:1313/en/1/1-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter1/1/"
+                href="http://localhost:1313/jp/1/1-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter2/1/</loc>
+    <loc>http://localhost:1313/jp/2/2-1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter2/1/"
+                href="http://localhost:1313/en/2/2-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter2/1/"
+                href="http://localhost:1313/jp/2/2-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter3/chapter3-5/1/1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/chapter3/chapter3-5/1/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter3/chapter3-5/1/1/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/jp/chapter1/</loc>
+    <loc>http://localhost:1313/jp/1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter1/"
+                href="http://localhost:1313/en/1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter1/"
+                href="http://localhost:1313/jp/1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter2/2/</loc>
+    <loc>http://localhost:1313/jp/2/2-2/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter2/2/"
+                href="http://localhost:1313/en/2/2-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter2/2/"
+                href="http://localhost:1313/jp/2/2-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter1/2/</loc>
+    <loc>http://localhost:1313/jp/1/1-2/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter1/2/"
+                href="http://localhost:1313/en/1/1-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter1/2/"
+                href="http://localhost:1313/jp/1/1-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter3/chapter3-5/2/2/</loc>
+    <loc>http://localhost:1313/jp/1/1-3/</loc>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/1/1-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="http://localhost:1313/jp/1/1-3/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/jp/2/</loc>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="http://localhost:1313/jp/2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/jp/2/2-3/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter3/chapter3-5/2/2/"
+                href="http://localhost:1313/en/2/2-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter3/chapter3-5/2/2/"
+                href="http://localhost:1313/jp/2/2-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter1/3/</loc>
+    <loc>http://localhost:1313/jp/3/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter1/3/"
+                href="http://localhost:1313/en/3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter1/3/"
+                href="http://localhost:1313/jp/3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter2/</loc>
+    <loc>http://localhost:1313/jp/3/3-4/3-4/</loc>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jp/4/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter2/"
+                href="http://localhost:1313/en/4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter2/"
+                href="http://localhost:1313/jp/4/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter2/3/</loc>
-    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/chapter2/3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter2/3/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/jp/chapter3/</loc>
+    <loc>http://localhost:1313/jp/4/4-1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter3/"
+                href="http://localhost:1313/en/4/4-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter3/"
+                href="http://localhost:1313/jp/4/4-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter3/4/</loc>
+    <loc>http://localhost:1313/jp/4/4-1/4-1-1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter3/4/"
+                href="http://localhost:1313/en/4/4-1/4-1-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter3/4/"
+                href="http://localhost:1313/jp/4/4-1/4-1-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter4/</loc>
+    <loc>http://localhost:1313/jp/5/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter4/"
+                href="http://localhost:1313/en/5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter4/"
+                href="http://localhost:1313/jp/5/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter4/chapter4-1/</loc>
+    <loc>http://localhost:1313/jp/5/5-1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter4/chapter4-1/"
+                href="http://localhost:1313/en/5/5-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter4/chapter4-1/"
+                href="http://localhost:1313/jp/5/5-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter4/chapter4-1/chapter4-1-1/</loc>
+    <loc>http://localhost:1313/jp/5/5-1/5-1-1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter4/chapter4-1/chapter4-1-1/"
+                href="http://localhost:1313/en/5/5-1/5-1-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter4/chapter4-1/chapter4-1-1/"
+                href="http://localhost:1313/jp/5/5-1/5-1-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter5/</loc>
+    <loc>http://localhost:1313/jp/6/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter5/"
+                href="http://localhost:1313/en/6/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter5/"
+                href="http://localhost:1313/jp/6/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter5/chapter5-1/</loc>
+    <loc>http://localhost:1313/jp/6/6-1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter5/chapter5-1/"
+                href="http://localhost:1313/en/6/6-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter5/chapter5-1/"
+                href="http://localhost:1313/jp/6/6-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter5/chapter5-1/chapter5-1-1/</loc>
+    <loc>http://localhost:1313/jp/6/6-1/6-1-1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter5/chapter5-1/chapter5-1-1/"
+                href="http://localhost:1313/en/6/6-1/6-1-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter5/chapter5-1/chapter5-1-1/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/jp/chapter6/</loc>
-    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/chapter6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter6/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/jp/chapter6/chapter6-1/</loc>
-    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/chapter6/chapter6-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter6/chapter6-1/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/jp/chapter6/chapter6-1/chapter6-1-1/</loc>
-    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/chapter6/chapter6-1/chapter6-1-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter6/chapter6-1/chapter6-1-1/"
+                href="http://localhost:1313/jp/6/6-1/6-1-1/"
                 />
   </url><url>
     <loc>http://localhost:1313/jp/about/</loc>
@@ -300,56 +265,51 @@
                 href="http://localhost:1313/jp/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter3/1/</loc>
+    <loc>http://localhost:1313/jp/3/3-1/3-1/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jp/3/3-2/3-2/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jp/3/3-3/3-3/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jp/3/3-5/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter3/1/"
+                href="http://localhost:1313/en/3/3-5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter3/1/"
+                href="http://localhost:1313/jp/3/3-5/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter3/2/</loc>
+    <loc>http://localhost:1313/jp/3/3-5/3-5-2/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter3/2/"
+                href="http://localhost:1313/en/3/3-5/3-5-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter3/2/"
+                href="http://localhost:1313/jp/3/3-5/3-5-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/chapter3/3/</loc>
-    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/jp/3/3-5/3-5-1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/chapter3/3/"
+                href="http://localhost:1313/en/3/3-5/3-5-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter3/3/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/jp/chapter3/chapter3-5/</loc>
-    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/chapter3/chapter3-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp-JP"
-                href="http://localhost:1313/jp/chapter3/chapter3-5/"
+                href="http://localhost:1313/jp/3/3-5/3-5-1/"
                 />
   </url><url>
     <loc>http://localhost:1313/jp/categories/</loc>
