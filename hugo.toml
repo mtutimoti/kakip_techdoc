@@ -4,7 +4,6 @@ baseURL = "https://example.com"
 # DefaultContentLanguage = "en"
 # title = "Hugo Techdoc Theme"
 # languageCode = "jp"
-# DefaultContentLanguage = "jp"
 # title = "Kakip Techdoc"
 theme = "hugo-theme-techdoc"
 
@@ -16,13 +15,12 @@ publishDir = "docs"
 # defaultContentLanguage = "en"
 # defaultContentLanguageInSubdir= false
 # enableMissingTranslationPlaceholders = false
-
 defaultContentLanguage = 'jp'
 defaultContentLanguageInSubdir = true
+
 [languages]
   [languages.jp]
-    baseURL = 'https://example.jp/'
-    # contentDir = 'content/jp'
+    contentDir = 'content/jp'
     disabled = false
     languageCode = 'jp-JP'
     languageDirection = 'ltr'
@@ -32,8 +30,7 @@ defaultContentLanguageInSubdir = true
     [languages.jp.params]
       subtitle = 'リファレンス、チュートリアルと説明'
   [languages.en]
-    baseURL = 'https://example.com/'
-    # contentDir = 'content/en'
+    contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
     languageDirection = 'ltr'

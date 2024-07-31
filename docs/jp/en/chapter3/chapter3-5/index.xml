@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.5 CAN on Kakip 技術ドキュメント</title>
+    <link>http://localhost:1313/en/chapter3/chapter3-5/</link>
+    <description>Recent content in 3.5 CAN on Kakip 技術ドキュメント</description>
+    <generator>Hugo</generator>
+    <language>jp-JP</language>
+    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/chapter3/chapter3-5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.5.1 What is CAN?</title>
+      <link>http://localhost:1313/en/chapter3/chapter3-5/1/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/chapter3/chapter3-5/1/1/</guid>
+      <description>A controller area network (CAN) is a vehicle bus standard designed to enable efficient communication primarily between electronic control units (ECUs). Originally developed to reduce the complexity and cost of electrical wiring in automobiles through multiplexing, the CAN bus protocol has since been adopted in various other contexts. This broadcast-based, message-oriented protocol ensures data integrity and prioritization through a process called arbitration, allowing the highest priority device to continue transmitting if multiple devices attempt to send data simultaneously, while others back off.</description>
+    </item>
+    <item>
+      <title>3.5.2 Protocol</title>
+      <link>http://localhost:1313/en/chapter3/chapter3-5/2/2/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/chapter3/chapter3-5/2/2/</guid>
+      <description>The CAN bus follows a standardized protocol that allows the network to address data and commands where needed.&#xA;Between transmissions, the bus is in an idle state at the recessive voltage level. The start of the transmission frame (SOF) is marked by the transmission of a dominant bit. A message identifier in the next field is followed by a remote transmission request (RTR)—which indicates whether the frame contains data or is requesting data.</description>
+    </item>
+  </channel>
+</rss>
