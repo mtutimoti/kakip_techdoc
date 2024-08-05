@@ -4,7 +4,6 @@ baseURL = "https://example.com"
 # DefaultContentLanguage = "en"
 # title = "Hugo Techdoc Theme"
 # languageCode = "jp"
-# title = "Kakip Techdoc"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
@@ -12,7 +11,6 @@ hasCJKLanguage = true
 metaDataFormat = "yml"
 publishDir = "docs"
 
-# defaultContentLanguage = "en"
 defaultContentLanguage = 'jp'
 defaultContentLanguageInSubdir= true
 # enableMissingTranslationPlaceholders = false
