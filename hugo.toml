@@ -13,14 +13,13 @@ metaDataFormat = "yml"
 publishDir = "docs"
 
 # defaultContentLanguage = "en"
-# defaultContentLanguageInSubdir= false
-# enableMissingTranslationPlaceholders = false
 defaultContentLanguage = 'jp'
+# defaultContentLanguageInSubdir= false
 defaultContentLanguageInSubdir = true
+# enableMissingTranslationPlaceholders = false
 
 [languages]
   [languages.jp]
-    contentDir = 'content/jp'
     disabled = false
     languageCode = 'jp-JP'
     languageDirection = 'ltr'
@@ -30,7 +29,6 @@ defaultContentLanguageInSubdir = true
     [languages.jp.params]
       subtitle = 'リファレンス、チュートリアルと説明'
   [languages.en]
-    contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
     languageDirection = 'ltr'
@@ -41,8 +39,6 @@ defaultContentLanguageInSubdir = true
       subtitle = 'Reference, Tutorials, and Explanations'
 
 [params]
-
-    favicon = "favicon.ico"
 
     # Source Code repository section
     # description = "put your description"

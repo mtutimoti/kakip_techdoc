@@ -67,8 +67,18 @@
                 href="http://localhost:1313/jp/6/6-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/3/3-1/3-1/</loc>
+    <loc>http://localhost:1313/jp/3/3-1/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/3/3-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="http://localhost:1313/jp/3/3-1/"
+                />
   </url><url>
     <loc>http://localhost:1313/jp/1/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
@@ -109,8 +119,18 @@
                 href="http://localhost:1313/jp/1/1-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/3/3-2/3-2/</loc>
+    <loc>http://localhost:1313/jp/3/3-2/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/3/3-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="http://localhost:1313/jp/3/3-2/"
+                />
   </url><url>
     <loc>http://localhost:1313/jp/1/1-3/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
@@ -151,11 +171,31 @@
                 href="http://localhost:1313/jp/2/2-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/jp/3/3-3/3-3/</loc>
+    <loc>http://localhost:1313/jp/3/3-3/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/3/3-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="http://localhost:1313/jp/3/3-3/"
+                />
   </url><url>
-    <loc>http://localhost:1313/jp/3/3-4/3-4/</loc>
+    <loc>http://localhost:1313/jp/3/3-4/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/3/3-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="http://localhost:1313/jp/3/3-4/"
+                />
   </url><url>
     <loc>http://localhost:1313/jp/3/3-5/</loc>
     <lastmod>2024-07-17T00:00:00+00:00</lastmod>
