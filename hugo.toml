@@ -14,8 +14,7 @@ publishDir = "docs"
 
 # defaultContentLanguage = "en"
 defaultContentLanguage = 'jp'
-# defaultContentLanguageInSubdir= false
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir= true
 # enableMissingTranslationPlaceholders = false
 
 [languages]
