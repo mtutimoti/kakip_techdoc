@@ -1,15 +1,10 @@
 baseURL = "https://example.com"
 
-# languageCode = "en-us"
-# DefaultContentLanguage = "en"
-# title = "Hugo Techdoc Theme"
-# languageCode = "jp"
 theme = "hugo-theme-techdoc"
 
 hasCJKLanguage = true
-# metaDataFormat = "yaml"
-metaDataFormat = "yml"
-publishDir = "docs"
+metaDataFormat = "yml" # GitHubで自動生成するファイルがyamlではなくymlのため
+publishDir = "docs" # publicではなくdocsにしないとGitHub Pagesで動作しない
 
 defaultContentLanguage = 'jp'
 defaultContentLanguageInSubdir= true
@@ -22,6 +17,7 @@ defaultContentLanguageInSubdir= true
     languageDirection = 'ltr'
     languageName = 'Japanese'
     title = 'Kakip 技術ドキュメント'
+    description = "Kakipワールドへようこそ!"
     weight = 1
     [languages.jp.params]
       subtitle = 'リファレンス、チュートリアルと説明'
@@ -31,6 +27,7 @@ defaultContentLanguageInSubdir= true
     languageDirection = 'ltr'
     languageName = 'English'
     title = 'Kakip Techdoc'
+    description = "Welcome Kakip World!"
     weight = 2
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
@@ -39,7 +36,7 @@ defaultContentLanguageInSubdir= true
 
     # Source Code repository section
     # description = "put your description"
-    description = "Welcome Kakip World!"
+    # description = "Welcome Kakip World!"
     # github_repository = "https://github.com/thingsym/hugo-theme-techdoc"
     github_repository = "https://github.com/mtutimoti/kakip_techdoc.git"
     version = "0.0.1"
@@ -98,18 +95,18 @@ defaultContentLanguageInSubdir= true
 [menu]
   [[menu.main]]
       identifier = "language"
-      name = "language"
+      name = "Language"
       url = "/"
       weight = 1
       pre = "<i class='fa fa-home'></i>&nbsp;"
   [[menu.main]]
-      identifier = "Japanese"
+      identifier = "japanese"
       name = "Japanese"
       url = "/jp"
       parent = "language"
       weight = 1
   [[menu.main]]
-      identifier = "English"
+      identifier = "english"
       name = "English"
       url = "/en"
       parent = "language"
