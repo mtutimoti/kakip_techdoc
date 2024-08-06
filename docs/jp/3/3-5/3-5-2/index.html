@@ -34,7 +34,7 @@
   <meta itemprop="description" content="CANバスは、ネットワークが必要に応じてデータとコマンドをアドレス指定できる標準化されたプロトコルに従います。 送信と送信の間、バスはリセッシ">
   <meta itemprop="datePublished" content="2024-07-17T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-07-17T00:00:00+00:00">
-  <meta itemprop="wordCount" content="789">
+  <meta itemprop="wordCount" content="812">
   <meta itemprop="image" content="http://localhost:1313/images/og-image.png"></head>
 <body>
 
@@ -53,9 +53,9 @@
 </div>
 
 <div class="content-container">
-<main><h1>3.5.2 プロトコル</h1><p>CANバスは、ネットワークが必要に応じてデータとコマンドをアドレス指定できる標準化されたプロトコルに従います。
-<img alt="CAN protocol" src="/jp/3/3-5/3-5-2/images/image240730_170456.png">
-送信と送信の間、バスはリセッシブ電圧レベルでアイドル状態になります。
+<main><h1>3.5.2 プロトコル</h1><pre tabindex="0"><code>CANバスは、ネットワークが必要に応じてデータとコマンドをアドレス指定できる標準化されたプロトコルに従います。
+</code></pre><p><img alt="CAN protocol" src="/jp/3/3-5/3-5-2/images/image240730_170456.png"></p>
+<pre tabindex="0"><code>送信と送信の間、バスはリセッシブ電圧レベルでアイドル状態になります。
 送信フレームの開始(SOF)は、ドミナント ビットの送信によってマークされます。
 次のフィールドのメッセージ識別子の後には、フレームにデータが含まれているか、またはデータを要求しているかを示すリモート送信要求(RTR)が続きます。
 これら2つのフィールドは、メッセージの優先順位を確立し、バスへのアクセスを調停するために使用されます。
@@ -67,7 +67,10 @@ ACKビットは、両側に区切りビットで囲まれています。
 ACKビットの後、コントローラは7ビットのフレーム終了(EOF)メッセージを送信し、その後に7ビットのフレーム間スペースを送信して、次のフレームを送信できるまでの最小時間を示します。
 ビットシーケンスに同じ状態のビットが5つ以上含まれている場合、コントローラは反対の状態のスタッフビットを挿入して、信号に同期を維持するのに十分なエッジがあることを確認します。
 これらのスタッフビットは、データの内容が正しいように、受信側によって削除されます。
-CRCフィールドの後、ビットスタッフィングは非アクティブ化され、ACK フィールドとEOFフィールドにスタッフビットが表示されないようにします。</p>
+CRCフィールドの後、ビットスタッフィングは非アクティブ化され、ACK フィールドとEOFフィールドにスタッフビットが表示されないようにします。
+</code></pre><p>The Basics of the Controller Area Network (CAN bus) and its Use in Automotive Applications
+In DigiKey. Retrieved August 6, 2024, from
+<a href="https://www.digikey.jp/ja/blog/the-basics-of-the-controller-area-network">https://www.digikey.jp/ja/blog/the-basics-of-the-controller-area-network</a></p>
 <div class="edit-meta">
 Last updated on 17 Jul 2024
 
