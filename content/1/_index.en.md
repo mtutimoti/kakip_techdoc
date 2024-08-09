@@ -24,4 +24,4 @@ Can be used for manuy applications
 * Development of Rapid Prototype
 * Education and Hobby
 
-![](images/image240809_093009.png)
+![Applications](images/image240809_093009.png)

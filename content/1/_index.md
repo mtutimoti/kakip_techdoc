@@ -24,4 +24,4 @@ DRP-AI3による強力なAI画像処理性能とマルチコアによる複数OS
 * Rapid Prototype等の研究開発・学術研究
 * タートルボット等のホビー用途
 
-![](images/image240809_093009.png)
+![Applications](images/image240809_093009.png)
