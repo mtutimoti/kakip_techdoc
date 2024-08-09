@@ -4,8 +4,8 @@ date: 2024-08-09T16:46:43+09:00
 draft: false
 ---
 
-![](images/image240809_162105.png)
-![](images/image240809_165031.png)
+![Kakip A-side](images/image240809_162105.png)
+![Kakip B-side](images/image240809_165031.png)
 
 #### Connector
 

@@ -5,8 +5,8 @@ draft: false
 weight: 40
 ---
 
-![](images/image240809_162105.png)
-![](images/image240809_165031.png)
+![Kakip A-side](images/image240809_162105.png)
+![Kakip B-side](images/image240809_165031.png)
 
 #### Connector
 
