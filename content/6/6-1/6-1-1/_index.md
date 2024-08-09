@@ -1,14 +1,14 @@
 ---
 title: "6.1.1 品目番号"
-date: 2024-07-30
+date: 2024-08-09T17:18:34+09:00
 draft: false
 ---
 
 ```
-HS:     8471504090
-US HS:  8543708800
-UPC:    640265311062
-EU HS:  8471707000
+HS:     
+US HS:  
+UPC:    
+EU HS:  
 ```
 
-COO: CHINA
+COO: JAPAN

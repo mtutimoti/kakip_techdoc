@@ -1,6 +1,6 @@
 +++
 title = "About Kakip"
-date = "2024-07-29"
+date = "2024-08-09T09:11:34+09:00"
 menu = "main"
 +++
 
@@ -22,3 +22,5 @@ Although single-board computer products have been actively developed worldwide i
 As we started to develop products with high-performance AI functions from Japan, we learned that “Kaki”, Japanese fruit name of persimmon, is one of the domestically produced fruits that have been exported to the world in a remarkably increasing volume, although in a different field.
 The logo was designed with a motif of a persimmon superimposed on a picture of a neural network, and was completed with the idea of going out into the world just as much as the persimmon.
 The development team had nicknamed this processor board "Kakip," and we hoped that the endearing name would make it familiar to everyone.
+
+![](images/image240809_090545.png)
