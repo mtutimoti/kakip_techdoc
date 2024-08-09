@@ -6,33 +6,33 @@
     <description>Recent content in 3 設計と仕様 on Kakip 技術ドキュメント</description>
     <generator>Hugo</generator>
     <language>jp-JP</language>
-    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2024 16:47:51 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/jp/3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3.1 GPIO</title>
       <link>http://localhost:1313/jp/3/3-1/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 16:46:58 +0900</pubDate>
       <guid>http://localhost:1313/jp/3/3-1/</guid>
-      <description>GPIO は汎用入出力端子です。 さまざまな電子部品を接続し制御するために使用できるプログラム可能な端子セットです。 各ピンを設定し、ボタンやセンサーな</description>
+      <description>Connector CN6 Pinout Name Pin Pin Name 3.3V_PWR 1 2 5V_PWR GPIO2/SDA 3 4 5V_PWR GPIO3/SCL 5 6 GND GPIO4 7 8 GPIO14/TXD GND 9 10 GPIO15/RXD GPIO17 11 12 GPIO18/PCM_CLK GPIO27 13 14 GND GPIO22 15 16 GPIO23 3.3V_PWR 17 18 GPIO24 GPIO10/MOSI 19 20 GND GPIO9/MISO 21 22 GPIO25 GPIO11/SCK 23 24 GPIO8/CE0 GND 25 26 GPIO7/CE1 GPIO0/ID_SD 27 28 GPIO1/ID_SC GPIO5 29 30 GND GPIO6 31 32</description>
     </item>
     <item>
       <title>3.2 CSI</title>
       <link>http://localhost:1313/jp/3/3-2/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 16:47:18 +0900</pubDate>
       <guid>http://localhost:1313/jp/3/3-2/</guid>
-      <description> Pin Name 1 GND 2 DATA0_N 3 DATA0_P 4 GND 5 DATA1_N 6 DATA1_P 7 GND 8 CLOCK_N 9 CLOCK_P 10 GND 11 DATA2_N 12 DATA2_P 13 GND 14 DATA3_N 15 DATA3_P 16 GND 17 GPIO0 18 GPIO1 19 GND 20 SCL 21 SDA 22 3.3V </description>
+      <description>Connector CN10(MIPI CAM0) CN12(MIPI CAM1) CN14(MIPI CAM2) CN15(MIPI CAM3) Pinout Pin Name 1 GND 2 DATA0_N 3 DATA0_P 4 GND 5 DATA1_N 6 DATA1_P 7 GND 8 CLOCK_N 9 CLOCK_P 10 GND 11 DATA2_N 12 DATA2_P 13 GND 14 DATA3_N 15 DATA3_P 16 GND 17 GPIO0 18 GPIO1 19 GND 20 SCL 21 SDA 22 3.3V Connector type Manufacturer: Molex Parts #: 52559-2253 </description>
     </item>
     <item>
       <title>3.3 DSI</title>
       <link>http://localhost:1313/jp/3/3-3/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 16:47:35 +0900</pubDate>
       <guid>http://localhost:1313/jp/3/3-3/</guid>
-      <description> Pin Name 1 GND 2 DATA0_N 3 DATA0_P 4 GND 5 DATA1_N 6 DATA1_P 7 GND 8 CLOCK_N 9 CLOCK_P 10 GND 11 DATA2_N 12 DATA2_P 13 GND 14 DATA3_N 15 DATA3_P 16 GND 17 GPIO0 18 GPIO1 19 GND 20 SCL 21 SDA 22 3.3V </description>
+      <description>Connector CN11 Pinout Pin Name 1 GND 2 DATA0_N 3 DATA0_P 4 GND 5 DATA1_N 6 DATA1_P 7 GND 8 CLOCK_N 9 CLOCK_P 10 GND 11 DATA2_N 12 DATA2_P 13 GND 14 DATA3_N 15 DATA3_P 16 GND 17 GPIO0 18 GPIO1 19 GND 20 SCL 21 SDA 22 3.3V Connector type Manufacturer: Amphenol Parts #: SFV22R-1STE1HLF </description>
     </item>
     <item>
       <title>3.4 PCIe</title>
       <link>http://localhost:1313/jp/3/3-4/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 16:47:51 +0900</pubDate>
       <guid>http://localhost:1313/jp/3/3-4/</guid>
       <description>Kakipは高速拡張のために最大1GB/秒のデータレートを可能にする PCI-Express x1インターフェイスをサポートしています。 これにより、SD カードや従来</description>
     </item>

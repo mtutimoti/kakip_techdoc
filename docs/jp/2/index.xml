@@ -6,28 +6,28 @@
     <description>Recent content in 2 はじめる前に on Kakip 技術ドキュメント</description>
     <generator>Hugo</generator>
     <language>jp-JP</language>
-    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2024 15:31:36 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/jp/2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2.1 Boot Media</title>
       <link>http://localhost:1313/jp/2/2-1/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 15:31:36 +0900</pubDate>
       <guid>http://localhost:1313/jp/2/2-1/</guid>
-      <description>boot mediaをhttps://www.****からダウンロードし、Balena Etcherを使用し下記手順ででSDカードに書き込みます。 1. ダ</description>
+      <description>boot mediaをダウンロードし、Balena Etcherを使用し下記手順ででSDカードに書き込みます。 1. ダウンロードしたboot mediaを選</description>
     </item>
     <item>
-      <title>2.2 供給電源</title>
+      <title>2.2 Power supply</title>
       <link>http://localhost:1313/jp/2/2-2/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/jp/2/2-2/</guid>
-      <description>Kakipに供給する電源には5Vで3A以上の供給能力のあるACアダプターを使用してください。</description>
+      <description>DCジャック(CN17)から25W以上を供給してください。 Recommended power supply (voltage/current) ACアダプター(12V/2.5A) DCプラグ 外径Φ5.5/内径Φ2.1 セン</description>
     </item>
     <item>
       <title>2.3 SBCとの接続</title>
       <link>http://localhost:1313/jp/2/2-3/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 11:31:43 +0900</pubDate>
       <guid>http://localhost:1313/jp/2/2-3/</guid>
-      <description>KakipにはUSB Type-Cポートが一つしかありません。初回のセットアップでは専用電源を使用し以下の手順で立ち上げてください。 1. DSIデ</description>
+      <description>Kakipをヘッドレスではなく直接使用する場合は次のアクセサリーが必要です。 DSIディスプレイ KakipとDSIディスプレイを接続するケーブ</description>
     </item>
   </channel>
 </rss>

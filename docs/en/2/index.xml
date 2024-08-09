@@ -6,28 +6,28 @@
     <description>Recent content in 2 Getting started on Kakip Techdoc</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2024 15:31:26 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/en/2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2.1 Boot Media</title>
       <link>http://localhost:1313/en/2/2-1/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 15:31:26 +0900</pubDate>
       <guid>http://localhost:1313/en/2/2-1/</guid>
-      <description>Download the boot media from https://www.**** and flash it on a micro SD Card using using Balena Etcher following these steps:&#xA;1. Select downloaded boot media 2. Select SD Card 3. Flash! Once flashed, you can insert the SD card into your Kakip.</description>
+      <description>Download the boot media and flash it on a micro SD Card using using Balena Etcher following these steps:&#xA;1. Select downloaded boot media 2. Select SD Card 3. Flash! Once flashed, you can insert the SD card into your Kakip.&#xA;Download Boot media</description>
     </item>
     <item>
       <title>2.2 Power Supply</title>
       <link>http://localhost:1313/en/2/2-2/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 15:28:15 +0900</pubDate>
       <guid>http://localhost:1313/en/2/2-2/</guid>
-      <description>To power the board you can either connect it to a dedicated power supply like a mobile charger or a wall adapter that can provide 5V ≥ 3A.</description>
+      <description>Supply 25W or more from the DC jack (CN17).&#xA;Recommended power supply (voltage/current) AC adapter (12V/2.5A) DC plug Outer diameter Φ5.5/inner diameter Φ2.1 Center plus If no plug is inserted into the DC jack, 5V (max 3A) will be supplied from the VSUB of the USB Type-C connector (CN5).</description>
     </item>
     <item>
       <title>2.3 Board connection</title>
       <link>http://localhost:1313/en/2/2-3/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 11:31:36 +0900</pubDate>
       <guid>http://localhost:1313/en/2/2-3/</guid>
-      <description>There is only one USB type-C port on board, if you choose to use a dedicated power supply for first time setup, you may access the board via one of the following methods:&#xA;1. Connection to DSI display, Keyboard and Mouse 2. Connect the board directly to your PC or Laptop using a USB type-C cable. 3. Ethernet network connection </description>
+      <description>If you want to use your Kakpi directly rather than headless, you’ll need the following additional accessories:&#xA;DSI display Cable to connect Kakip to DSI display Keyboard Mouse </description>
     </item>
   </channel>
 </rss>

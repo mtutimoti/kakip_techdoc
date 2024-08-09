@@ -20,24 +20,24 @@
 <meta property="og:url" content="http://localhost:1313/jp/3/3-1/">
   <meta property="og:site_name" content="Kakip 技術ドキュメント">
   <meta property="og:title" content="3.1 GPIO">
-  <meta property="og:description" content="GPIO は汎用入出力端子です。 さまざまな電子部品を接続し制御するために使用できるプログラム可能な端子セットです。 各ピンを設定し、ボタンやセンサーな">
+  <meta property="og:description" content="Connector CN6 Pinout Name Pin Pin Name 3.3V_PWR 1 2 5V_PWR GPIO2/SDA 3 4 5V_PWR GPIO3/SCL 5 6 GND GPIO4 7 8 GPIO14/TXD GND 9 10 GPIO15/RXD GPIO17 11 12 GPIO18/PCM_CLK GPIO27 13 14 GND GPIO22 15 16 GPIO23 3.3V_PWR 17 18 GPIO24 GPIO10/MOSI 19 20 GND GPIO9/MISO 21 22 GPIO25 GPIO11/SCK 23 24 GPIO8/CE0 GND 25 26 GPIO7/CE1 GPIO0/ID_SD 27 28 GPIO1/ID_SC GPIO5 29 30 GND GPIO6 31 32">
   <meta property="og:locale" content="jp_JP">
   <meta property="og:type" content="article">
     <meta property="article:section" content="3">
-    <meta property="article:published_time" content="2024-07-17T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-07-17T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-08-09T16:46:58+09:00">
+    <meta property="article:modified_time" content="2024-08-09T16:46:58+09:00">
     <meta property="og:image" content="http://localhost:1313/images/og-image.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/og-image.png">
   <meta name="twitter:title" content="3.1 GPIO">
-  <meta name="twitter:description" content="GPIO は汎用入出力端子です。 さまざまな電子部品を接続し制御するために使用できるプログラム可能な端子セットです。 各ピンを設定し、ボタンやセンサーな">
+  <meta name="twitter:description" content="Connector CN6 Pinout Name Pin Pin Name 3.3V_PWR 1 2 5V_PWR GPIO2/SDA 3 4 5V_PWR GPIO3/SCL 5 6 GND GPIO4 7 8 GPIO14/TXD GND 9 10 GPIO15/RXD GPIO17 11 12 GPIO18/PCM_CLK GPIO27 13 14 GND GPIO22 15 16 GPIO23 3.3V_PWR 17 18 GPIO24 GPIO10/MOSI 19 20 GND GPIO9/MISO 21 22 GPIO25 GPIO11/SCK 23 24 GPIO8/CE0 GND 25 26 GPIO7/CE1 GPIO0/ID_SD 27 28 GPIO1/ID_SC GPIO5 29 30 GND GPIO6 31 32">
 
   <meta itemprop="name" content="3.1 GPIO">
-  <meta itemprop="description" content="GPIO は汎用入出力端子です。 さまざまな電子部品を接続し制御するために使用できるプログラム可能な端子セットです。 各ピンを設定し、ボタンやセンサーな">
-  <meta itemprop="datePublished" content="2024-07-17T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-07-17T00:00:00+00:00">
-  <meta itemprop="wordCount" content="280">
+  <meta itemprop="description" content="Connector CN6 Pinout Name Pin Pin Name 3.3V_PWR 1 2 5V_PWR GPIO2/SDA 3 4 5V_PWR GPIO3/SCL 5 6 GND GPIO4 7 8 GPIO14/TXD GND 9 10 GPIO15/RXD GPIO17 11 12 GPIO18/PCM_CLK GPIO27 13 14 GND GPIO22 15 16 GPIO23 3.3V_PWR 17 18 GPIO24 GPIO10/MOSI 19 20 GND GPIO9/MISO 21 22 GPIO25 GPIO11/SCK 23 24 GPIO8/CE0 GND 25 26 GPIO7/CE1 GPIO0/ID_SD 27 28 GPIO1/ID_SC GPIO5 29 30 GND GPIO6 31 32">
+  <meta itemprop="datePublished" content="2024-08-09T16:46:58+09:00">
+  <meta itemprop="dateModified" content="2024-08-09T16:46:58+09:00">
+  <meta itemprop="wordCount" content="196">
   <meta itemprop="image" content="http://localhost:1313/images/og-image.png"></head>
 <body>
 
@@ -61,11 +61,11 @@
 
 <div class="content-container">
 <main><h1>3.1 GPIO</h1>
-<p>GPIO は汎用入出力端子です。
-さまざまな電子部品を接続し制御するために使用できるプログラム可能な端子セットです。
-各ピンを設定し、ボタンやセンサーなどからの信号(入力)を読み取り、LEDやモーターなどに信号(出力)を送信できます。
-これにより、ソフトウェアで物理的な世界と対話し、制御することが可能です。</p>
-<h4 id="note-warning---gpio-は入力電圧を33v-まで許容しますがこれより高い電圧で使用するとプロセッサが損傷します">Note: WARNING - GPIO は入力電圧を3.3V まで許容しますが、これより高い電圧で使用するとプロセッサが損傷します。</h4>
+<h4 id="connector">Connector</h4>
+<ul>
+<li>CN6</li>
+</ul>
+<h4 id="pinout">Pinout</h4>
 <table>
 <thead>
 <tr>
@@ -198,12 +198,20 @@
 </tr>
 </tbody>
 </table>
+<h4 id="connector-type">Connector type</h4>
+<ul>
+<li>Manufacturer: Samtec</li>
+<li>Parts #: TSW-120-07-G-D</li>
+</ul>
+<h4 id="warning">WARNING</h4>
+<p>HAT使用時にGPIO 5Vから電源供給するとUSB Type-CのVSUBにも5Vが加わりホスト側に5Vが逆流する。
+5V供給能力を持つHATを搭載する場合はVUSB電源許可ジャンパ(R105)を外すこと。</p>
 <div class="edit-meta">
-Last updated on 17 Jul 2024
+Last updated on 9 Aug 2024
 
 
 <br>
-Published on 17 Jul 2024
+Published on 9 Aug 2024
 <br></div><nav class="pagination"><a class="nav nav-prev" href="http://localhost:1313/jp/3/" title="3 設計と仕様"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - 3 設計と仕様</a>
 <a class="nav nav-next" href="http://localhost:1313/jp/3/3-2/" title="3.2 CSI">Next - 3.2 CSI <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
@@ -229,7 +237,7 @@ Published on 17 Jul 2024
   
 <ul class="sub-menu">
 <li class=""><a href="http://localhost:1313/jp/2/2-1/">2.1 Boot Media</a></li>
-<li class=""><a href="http://localhost:1313/jp/2/2-2/">2.2 供給電源</a></li>
+<li class=""><a href="http://localhost:1313/jp/2/2-2/">2.2 Power supply</a></li>
 <li class=""><a href="http://localhost:1313/jp/2/2-3/">2.3 SBCとの接続</a></li>
 </ul>
   
